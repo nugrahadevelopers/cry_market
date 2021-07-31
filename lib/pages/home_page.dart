@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  int page = 2;
+  int page = 1;
 
   Future<int> _fetchCoin() async {
     var myUrl = Uri.parse(
